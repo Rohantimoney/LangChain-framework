@@ -1,0 +1,47 @@
+# Git ignore template for Python projects
+
+# --- Virtual Environment ---
+# Ignore the virtual environment folder
+venv/
+.venv/
+
+# --- Compiled Python files ---
+# Bytecode files
+*.pyc
+
+# __pycache__ directory
+__pycache__/
+
+# --- OS and Editor files ---
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Visual Studio Code files
+.vscode/
+
+# PyCharm/IntelliJ IDEA files
+.idea/
+
+# --- Dependency Management ---
+# Pip packages
+site-packages/
+
+# --- Environment Variables ---
+# Secret keys and local settings
+.env
+*.env
+
+# --- Testing and Coverage ---
+# Coverage reports and directories
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --- Build and Distribution ---
+# Compiled build artifacts
+dist/
+build/
+*.egg-info/
